@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnPizza"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:foreground="@drawable/pizza"
+                android:text="pizza" />
+
+            <Button
+                android:id="@+id/btnPizza2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:foreground="@drawable/button_circular"
+                android:text="pizza"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnChicken"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:baselineAligned="false"
+                android:foreground="@drawable/chicken"
+                android:text="chicken" />
+
+            <Button
+                android:id="@+id/btnChicken2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:baselineAligned="false"
+                android:foreground="@drawable/chicken"
+                android:text="chicken"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnMeat"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:foreground="@drawable/meat"
+                android:text="meat" />
+
+            <Button
+                android:id="@+id/btnMeat2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:foreground="@drawable/meat"
+                android:text="meat"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnSalad"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:foreground="@drawable/salad"
+                android:text="salad" />
+
+            <Button
+                android:id="@+id/btnSalad2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:foreground="@drawable/salad"
+                android:text="salad"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnPig"
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:foreground="@drawable/pig"
+                android:text="pig" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
