@@ -5,5 +5,5 @@
 - Uso de API REST : JSON
 - Librerias : VOLLEY, PICASSO, TRANSLATOR
 - API : [EDAMANAPI]https://developer.edamam.com/food-database-api-docs
-#Play Store
+# Play Store
 - [HealthyCook]https://play.google.com/store/apps/details?id=com.cock.healthycook
